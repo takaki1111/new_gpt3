@@ -13,7 +13,7 @@ const areas = JSON.parse(fs.readFileSync(AREA_JSON_FILE, 'utf-8'));
 const PORT =process.env.PORT;
 
 
-const cors = require('cors')
+const cors = require('cors');
 const app = express();
 
 app.use(cors())
