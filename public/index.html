@@ -80,7 +80,7 @@
     function callBackend(text) {
       addBotTalk();
       scrollBottom();
-      fetch('https://ktakahashi-web-server.herokuapp.com/chat?text=' + text)
+      fetch('https://https://new-gpt3.vercel.app/chat?text=' + text)
         .then(response => response.json())
         .then(reply => {
           setReplyToBotMessage(reply);
