@@ -1,0 +1,26 @@
+{
+  "name": "project",
+  "engines": {
+    "node": "v16.16.0",
+    "npm": "8.11.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^4.16.0",
+    "data-utils": "^0.0.2",
+    "date-utils": "^1.2.21",
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.1",
+    "readline-sync": "^1.4.10"
+  }
+}
