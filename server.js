@@ -80,7 +80,7 @@ async function askForWeather(areaName) {
     const json = await response.json();
 
     const latest = json[0].timeSeries[0].areas[0];
-    const reply = createReply(`${name}の天気は　${latest.weathers[1]}　でしょう`);
+    const reply = createReply(`${name}の天気は${latest.weathers[0]}でしょう`);
     return reply;
   } catch (error) {
     console.error(error);
